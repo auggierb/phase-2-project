@@ -8,6 +8,7 @@ import About from './About'
 import Search from './Search'
 import {useState,useEffect} from 'react'
 import NavBar from './NavBar'
+
 function App() {
   const [inTheaters,setInTheaters]=useState([])
  const [tv,setTv]=useState([])
